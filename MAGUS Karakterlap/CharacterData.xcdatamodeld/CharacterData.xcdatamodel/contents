@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22F66" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Armor" representedClassName="Armor" syncable="YES">
+        <attribute name="armorDescription" optional="YES" attributeType="String"/>
+        <attribute name="armorId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="armorMGT" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="armorName" optional="YES" attributeType="String"/>
+        <attribute name="armorSFE" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="armorType" optional="YES" attributeType="String"/>
+        <relationship name="character" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Character" inverseName="armors" inverseEntity="Character"/>
+    </entity>
+    <entity name="Character" representedClassName="Character" syncable="YES">
+        <attribute name="addCe" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="addKe" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="addTe" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="addVe" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="agility" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="agilityModified" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="alignment" optional="YES" attributeType="String"/>
+        <attribute name="armorEquipped" optional="YES" attributeType="String"/>
+        <attribute name="armorId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="armorMGT" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="armorSFE" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="astral" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="beauty" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="ce" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="charDescription" optional="YES" attributeType="String"/>
+        <attribute name="charPhoto" optional="YES" attributeType="Binary"/>
+        <attribute name="disadvantageName" optional="YES" attributeType="String"/>
+        <attribute name="disadvantageTe" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="disadvantageVe" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="endurance" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="health" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="healthPoint" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="healthPointAct" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="hm" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="intelligence" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="ke" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="level" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="modifierCe" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="modifierDescription" optional="YES" attributeType="String"/>
+        <attribute name="modifierKe" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="modifierName" optional="YES" attributeType="String"/>
+        <attribute name="modifierTe" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="modifierVe" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="notes" optional="YES" attributeType="String"/>
+        <attribute name="painPoint" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="painPointAct" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="perception" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="primaryCaste" optional="YES" attributeType="String"/>
+        <attribute name="race" optional="YES" attributeType="String"/>
+        <attribute name="religion" optional="YES" attributeType="String"/>
+        <attribute name="secondaryCaste" optional="YES" attributeType="String"/>
+        <attribute name="speed" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="speedModified" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="strength" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="targetDesc" optional="YES" attributeType="String"/>
+        <attribute name="targetName" optional="YES" attributeType="String"/>
+        <attribute name="targetValue" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="te" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="ve" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="weapon2Equipped" optional="YES" attributeType="String"/>
+        <attribute name="weapon2Id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="weaponAttack" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="weaponCe" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="weaponDamage" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="weaponDamageShow" optional="YES" attributeType="String"/>
+        <attribute name="weaponDistance" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="weaponEquipped" optional="YES" attributeType="String"/>
+        <attribute name="weaponId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="weaponKe" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="weaponName" optional="YES" attributeType="String"/>
+        <attribute name="weaponTe" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="weaponVe" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="willpower" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="xp" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="armors" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Armor" inverseName="character" inverseEntity="Armor"/>
+        <relationship name="disadvantages" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Disadvantage" inverseName="character" inverseEntity="Disadvantage"/>
+        <relationship name="equipments" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Equipment" inverseName="character" inverseEntity="Equipment"/>
+        <relationship name="modifiers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Modifier" inverseName="character" inverseEntity="Modifier"/>
+        <relationship name="skills" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Skill" inverseName="character" inverseEntity="Skill"/>
+        <relationship name="targets" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Target" inverseName="character" inverseEntity="Target"/>
+        <relationship name="weapons" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Weapon" inverseName="character" inverseEntity="Weapon"/>
+    </entity>
+    <entity name="Disadvantage" representedClassName="Disadvantage" syncable="YES">
+        <attribute name="disadvantage" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="disadvantageName" optional="YES" attributeType="String"/>
+        <relationship name="character" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Character" inverseName="disadvantages" inverseEntity="Character"/>
+    </entity>
+    <entity name="Equipment" representedClassName="Equipment" syncable="YES">
+        <attribute name="equipmentComm" optional="YES" attributeType="String"/>
+        <attribute name="equipmentDesc" optional="YES" attributeType="String"/>
+        <attribute name="equipmentName" optional="YES" attributeType="String"/>
+        <attribute name="equipmentQty" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="character" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Character" inverseName="equipments" inverseEntity="Character"/>
+    </entity>
+    <entity name="Modifier" representedClassName="Modifier" syncable="YES">
+        <attribute name="modifierCe" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="modifierDescription" optional="YES" attributeType="String"/>
+        <attribute name="modifierId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="modifierKe" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="modifierName" optional="YES" attributeType="String"/>
+        <attribute name="modifierTe" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="modifierVe" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="character" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Character" inverseName="modifiers" inverseEntity="Character"/>
+    </entity>
+    <entity name="Skill" representedClassName="Skill" syncable="YES">
+        <attribute name="af" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="mf" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skillCategory" optional="YES" attributeType="String"/>
+        <attribute name="skillDescription" optional="YES" attributeType="String"/>
+        <attribute name="skillName" optional="YES" attributeType="String"/>
+        <relationship name="character" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Character" inverseName="skills" inverseEntity="Character"/>
+    </entity>
+    <entity name="Target" representedClassName="Target" syncable="YES">
+        <attribute name="targetDesc" optional="YES" attributeType="String"/>
+        <attribute name="targetName" optional="YES" attributeType="String"/>
+        <attribute name="targetValue" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="character" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Character" inverseName="targets" inverseEntity="Character"/>
+    </entity>
+    <entity name="Weapon" representedClassName="Weapon" syncable="YES">
+        <attribute name="weapon2Id" optional="YES" attributeType="UUID"/>
+        <attribute name="weaponAttack" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="weaponCe" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="weaponDamage" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="weaponDamageShow" optional="YES" attributeType="String"/>
+        <attribute name="weaponDescription" optional="YES" attributeType="String"/>
+        <attribute name="weaponDistance" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="weaponId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="weaponKe" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="weaponMGT" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="weaponName" optional="YES" attributeType="String"/>
+        <attribute name="weaponSelected" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="weaponTe" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="weaponVe" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="character" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Character" inverseName="weapons" inverseEntity="Character"/>
+    </entity>
+</model>

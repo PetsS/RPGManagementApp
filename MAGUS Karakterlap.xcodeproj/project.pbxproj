@@ -1,0 +1,1077 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D00F32142981C3CB0075AF23 /* Target+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00F32122981C3CB0075AF23 /* Target+CoreDataClass.swift */; };
+		D00F32152981C3CB0075AF23 /* Target+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00F32132981C3CB0075AF23 /* Target+CoreDataProperties.swift */; };
+		D00F32172981C7C10075AF23 /* TargetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00F32162981C7C10075AF23 /* TargetData.swift */; };
+		D00F32192981CD710075AF23 /* TargetInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00F32182981CD710075AF23 /* TargetInfoView.swift */; };
+		D012EC8128D3BD6B003214D4 /* PageSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = D012EC8028D3BD6B003214D4 /* PageSelector.swift */; };
+		D012EC8528D3CDDE003214D4 /* IndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D012EC8428D3CDDE003214D4 /* IndexView.swift */; };
+		D01C79B8297746930049B948 /* EditEquipmentItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01C79B7297746930049B948 /* EditEquipmentItemView.swift */; };
+		D022627629285F6B0095024C /* UsefulCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D022627529285F6B0095024C /* UsefulCodes.swift */; };
+		D0226278292864DF0095024C /* WeaponInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0226277292864DF0095024C /* WeaponInfoView.swift */; };
+		D02BC2052917FC5E0094C680 /* WeaponsCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02BC2042917FC5E0094C680 /* WeaponsCalculator.swift */; };
+		D02BC20D291851120094C680 /* WeaponData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02BC20C291851120094C680 /* WeaponData.swift */; };
+		D02BC20F2918513D0094C680 /* EquipmentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02BC20E2918513D0094C680 /* EquipmentViewModel.swift */; };
+		D03139D9290D4882006F6F67 /* AddFightPointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03139D8290D4882006F6F67 /* AddFightPointsView.swift */; };
+		D037807328EDC928001C2439 /* CharacterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D037807228EDC928001C2439 /* CharacterData.swift */; };
+		D037807628EDFD3E001C2439 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D037807528EDFD3E001C2439 /* ListViewModel.swift */; };
+		D037EA8A298571FF0043F3DA /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D037EA89298571FF0043F3DA /* ImagePicker.swift */; };
+		D0418113291EEA070018178A /* AddDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0418112291EEA070018178A /* AddDescriptionView.swift */; };
+		D0463D162926EAAA00F9A4C2 /* Character+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0463D102926EAAA00F9A4C2 /* Character+CoreDataClass.swift */; };
+		D0463D172926EAAA00F9A4C2 /* Character+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0463D112926EAAA00F9A4C2 /* Character+CoreDataProperties.swift */; };
+		D0463D182926EAAA00F9A4C2 /* Weapon+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0463D122926EAAA00F9A4C2 /* Weapon+CoreDataClass.swift */; };
+		D0463D192926EAAA00F9A4C2 /* Weapon+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0463D132926EAAA00F9A4C2 /* Weapon+CoreDataProperties.swift */; };
+		D04A1BFB2A2FC71F006D8E35 /* Skill+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A1BF92A2FC71F006D8E35 /* Skill+CoreDataClass.swift */; };
+		D04A1BFC2A2FC71F006D8E35 /* Skill+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A1BFA2A2FC71F006D8E35 /* Skill+CoreDataProperties.swift */; };
+		D04A1BFE2A2FC827006D8E35 /* SkillViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A1BFD2A2FC827006D8E35 /* SkillViewModel.swift */; };
+		D04A1C002A2FC8B6006D8E35 /* SkillData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A1BFF2A2FC8B6006D8E35 /* SkillData.swift */; };
+		D04A1C022A2FCB9C006D8E35 /* SkillsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A1C012A2FCB9C006D8E35 /* SkillsView.swift */; };
+		D04A1C052A2FCFBE006D8E35 /* SkillInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A1C042A2FCFBE006D8E35 /* SkillInfoView.swift */; };
+		D04A1C072A2FD27C006D8E35 /* AddSkillsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A1C062A2FD27C006D8E35 /* AddSkillsView.swift */; };
+		D059E3212A3F89B5000E815B /* DiceRollerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D059E3202A3F89B5000E815B /* DiceRollerView.swift */; };
+		D05A9EDB28D6325900C3D63C /* PropCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05A9EDA28D6325900C3D63C /* PropCalculator.swift */; };
+		D05B00DD29086011000AECEC /* AddPropertiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05B00DC29086011000AECEC /* AddPropertiesView.swift */; };
+		D07127F12A16B4B200617754 /* AddNotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07127F02A16B4B200617754 /* AddNotesView.swift */; };
+		D071462A2909A6AB0058AC2B /* - EditNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07146292909A6AB0058AC2B /* - EditNameView.swift */; };
+		D071462C2909BCF30058AC2B /* EditAlignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D071462B2909BCF30058AC2B /* EditAlignmentView.swift */; };
+		D071462E2909BE410058AC2B /* - EditXpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D071462D2909BE410058AC2B /* - EditXpView.swift */; };
+		D07146302909C3160058AC2B /* EditCharDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D071462F2909C3160058AC2B /* EditCharDescriptionView.swift */; };
+		D07146322909CFBC0058AC2B /* AddHealthPointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07146312909CFBC0058AC2B /* AddHealthPointsView.swift */; };
+		D07607892A26970100462B4B /* EditRaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07607882A26970100462B4B /* EditRaceView.swift */; };
+		D076078B2A269A4100462B4B /* EditCasteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D076078A2A269A4100462B4B /* EditCasteView.swift */; };
+		D07BE14D297B224A009B7D6E /* ModifierData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07BE14C297B224A009B7D6E /* ModifierData.swift */; };
+		D07BE14F297B36CB009B7D6E /* AddModifiersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07BE14E297B36CB009B7D6E /* AddModifiersView.swift */; };
+		D07BE152297B4D8A009B7D6E /* Modifier+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07BE150297B4D8A009B7D6E /* Modifier+CoreDataClass.swift */; };
+		D07BE153297B4D8A009B7D6E /* Modifier+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07BE151297B4D8A009B7D6E /* Modifier+CoreDataProperties.swift */; };
+		D07BE155297B5201009B7D6E /* ModifierInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07BE154297B5201009B7D6E /* ModifierInfoView.swift */; };
+		D084300B290B187500B2E94B /* - EditHealthPointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D084300A290B187500B2E94B /* - EditHealthPointView.swift */; };
+		D084300D290B2FC100B2E94B /* - EditPainPointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D084300C290B2FC100B2E94B /* - EditPainPointView.swift */; };
+		D084300F290B371300B2E94B /* HealthAndPainPointCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D084300E290B371300B2E94B /* HealthAndPainPointCalculator.swift */; };
+		D094615128D49368008E61D8 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D094615028D49368008E61D8 /* CharacterView.swift */; };
+		D094615328D4E8EB008E61D8 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D094615228D4E8EB008E61D8 /* TabBar.swift */; };
+		D094615528D51192008E61D8 /* TextSyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = D094615428D51192008E61D8 /* TextSyles.swift */; };
+		D094615728D5AA30008E61D8 /* XpCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D094615628D5AA30008E61D8 /* XpCalculator.swift */; };
+		D096EACA2A40F9580017E442 /* ChoseWeaponsSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D096EAC92A40F9580017E442 /* ChoseWeaponsSecondView.swift */; };
+		D096EACC2A4109F30017E442 /* WeaponShieldInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D096EACB2A4109F30017E442 /* WeaponShieldInfoView.swift */; };
+		D09848052A3262E700BC497C /* Armor+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09848032A3262E700BC497C /* Armor+CoreDataClass.swift */; };
+		D09848062A3262E700BC497C /* Armor+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09848042A3262E700BC497C /* Armor+CoreDataProperties.swift */; };
+		D09848082A3263C100BC497C /* ArmorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09848072A3263C100BC497C /* ArmorData.swift */; };
+		D099913228CD18B300028957 /* MAGUS_KarakterlapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D099913128CD18B300028957 /* MAGUS_KarakterlapApp.swift */; };
+		D099913428CD18B300028957 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D099913328CD18B300028957 /* ListView.swift */; };
+		D099913628CD18B600028957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D099913528CD18B600028957 /* Assets.xcassets */; };
+		D099913928CD18B600028957 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D099913828CD18B600028957 /* Preview Assets.xcassets */; };
+		D099914328CD18B600028957 /* MAGUS_KarakterlapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D099914228CD18B600028957 /* MAGUS_KarakterlapTests.swift */; };
+		D099914D28CD18B600028957 /* MAGUS_KarakterlapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D099914C28CD18B600028957 /* MAGUS_KarakterlapUITests.swift */; };
+		D099914F28CD18B600028957 /* MAGUS_KarakterlapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D099914E28CD18B600028957 /* MAGUS_KarakterlapUITestsLaunchTests.swift */; };
+		D099915F28CD1CCF00028957 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D099915E28CD1CCF00028957 /* DataController.swift */; };
+		D099916128CD231500028957 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D099916028CD231500028957 /* AddView.swift */; };
+		D099916428CD24BB00028957 /* CharacterData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D099916228CD24BB00028957 /* CharacterData.xcdatamodeld */; };
+		D099916628CD280000028957 /* MotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D099916528CD280000028957 /* MotherView.swift */; };
+		D099916A28CE833E00028957 /* FightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D099916928CE833E00028957 /* FightView.swift */; };
+		D09DACE6291C439C00194015 /* AddPrimaryCasteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09DACE5291C439C00194015 /* AddPrimaryCasteView.swift */; };
+		D09DACE8291C4E7000194015 /* AddSecondaryCasteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09DACE7291C4E7000194015 /* AddSecondaryCasteView.swift */; };
+		D09DACEA291C58F000194015 /* AddRaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09DACE9291C58F000194015 /* AddRaceView.swift */; };
+		D09DACEC291C5AEB00194015 /* AddAlignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09DACEB291C5AEB00194015 /* AddAlignmentView.swift */; };
+		D09DACEE291C5D6E00194015 /* AddLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09DACED291C5D6E00194015 /* AddLevelView.swift */; };
+		D0A13F722A33AA7D00562079 /* ChoseArmorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A13F712A33AA7D00562079 /* ChoseArmorsView.swift */; };
+		D0B6F78A2975BF5F00125C94 /* EquipmentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B6F7892975BF5F00125C94 /* EquipmentData.swift */; };
+		D0B6F7952975C1B300125C94 /* Equipment+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B6F78F2975C1B300125C94 /* Equipment+CoreDataClass.swift */; };
+		D0B6F7962975C1B300125C94 /* Equipment+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B6F7902975C1B300125C94 /* Equipment+CoreDataProperties.swift */; };
+		D0BF81392911694100524F5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0BF81382911694100524F5B /* LaunchScreen.storyboard */; };
+		D0BF813B29116C3500524F5B /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BF813A29116C3500524F5B /* LaunchView.swift */; };
+		D0C1E0F82933C9430012B08A /* InfoCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C1E0F72933C9430012B08A /* InfoCalculator.swift */; };
+		D0D531262917C74C0000A142 /* AddWeaponsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D531252917C74C0000A142 /* AddWeaponsView.swift */; };
+		D0DE90772A326B3D00A5FED5 /* ArmorInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DE90762A326B3D00A5FED5 /* ArmorInfoView.swift */; };
+		D0DE90792A326D1F00A5FED5 /* AddArmorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DE90782A326D1F00A5FED5 /* AddArmorsView.swift */; };
+		D0EAE59229259305009E7FF9 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EAE59129259305009E7FF9 /* TestView.swift */; };
+		D0EDBEA128DE465800F636BC /* CharacterTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EDBEA028DE465800F636BC /* CharacterTabView.swift */; };
+		D0EDBEA628DF6C2900F636BC /* AddTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EDBEA528DF6C2900F636BC /* AddTabView.swift */; };
+		D0EDBEA828DF6CC000F636BC /* AddInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EDBEA728DF6CC000F636BC /* AddInfoView.swift */; };
+		D0EDBEAA28DF6CC900F636BC /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EDBEA928DF6CC900F636BC /* View2.swift */; };
+		D0EDBEAC28DF6CD000F636BC /* View3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EDBEAB28DF6CD000F636BC /* View3.swift */; };
+		D0F239CA29171DFB000C83CC /* EquipmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F239C929171DFB000C83CC /* EquipmentsView.swift */; };
+		D0F4B96029316607008CE063 /* ChoseWeaponsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F4B95F29316607008CE063 /* ChoseWeaponsView.swift */; };
+		D0F70DF62A2536C800F603FB /* EditHmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F70DF52A2536C800F603FB /* EditHmView.swift */; };
+		D0FC99AA297DD1BC0015C6D6 /* DisadvantageInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FC99A9297DD1BC0015C6D6 /* DisadvantageInfoView.swift */; };
+		D0FC99B1297DE51A0015C6D6 /* Disadvantage+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FC99AF297DE51A0015C6D6 /* Disadvantage+CoreDataClass.swift */; };
+		D0FC99B2297DE51A0015C6D6 /* Disadvantage+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FC99B0297DE51A0015C6D6 /* Disadvantage+CoreDataProperties.swift */; };
+		D0FC99B4297DE5BB0015C6D6 /* DisadvantageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FC99B3297DE5BB0015C6D6 /* DisadvantageData.swift */; };
+		D0FE4A882974A96500703933 /* AddEquipmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FE4A872974A96500703933 /* AddEquipmentsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D099913F28CD18B600028957 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D099912628CD18B300028957 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D099912D28CD18B300028957;
+			remoteInfo = "MAGUS Karakterlap";
+		};
+		D099914928CD18B600028957 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D099912628CD18B300028957 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D099912D28CD18B300028957;
+			remoteInfo = "MAGUS Karakterlap";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D00F32122981C3CB0075AF23 /* Target+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Target+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D00F32132981C3CB0075AF23 /* Target+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Target+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D00F32162981C7C10075AF23 /* TargetData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TargetData.swift; sourceTree = "<group>"; };
+		D00F32182981CD710075AF23 /* TargetInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TargetInfoView.swift; sourceTree = "<group>"; };
+		D012EC8028D3BD6B003214D4 /* PageSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageSelector.swift; sourceTree = "<group>"; };
+		D012EC8428D3CDDE003214D4 /* IndexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexView.swift; sourceTree = "<group>"; };
+		D01C79B7297746930049B948 /* EditEquipmentItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditEquipmentItemView.swift; path = "MAGUS Karakterlap/EquipmentAddViews/EditEquipmentItemView.swift"; sourceTree = SOURCE_ROOT; };
+		D022627529285F6B0095024C /* UsefulCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsefulCodes.swift; sourceTree = "<group>"; };
+		D0226277292864DF0095024C /* WeaponInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponInfoView.swift; sourceTree = "<group>"; };
+		D02BC2042917FC5E0094C680 /* WeaponsCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponsCalculator.swift; sourceTree = "<group>"; };
+		D02BC20C291851120094C680 /* WeaponData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeaponData.swift; sourceTree = "<group>"; };
+		D02BC20E2918513D0094C680 /* EquipmentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EquipmentViewModel.swift; sourceTree = "<group>"; };
+		D03139D8290D4882006F6F67 /* AddFightPointsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFightPointsView.swift; sourceTree = "<group>"; };
+		D037807228EDC928001C2439 /* CharacterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterData.swift; sourceTree = "<group>"; };
+		D037807528EDFD3E001C2439 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		D037EA89298571FF0043F3DA /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		D0418112291EEA070018178A /* AddDescriptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDescriptionView.swift; sourceTree = "<group>"; };
+		D0463D102926EAAA00F9A4C2 /* Character+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Character+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D0463D112926EAAA00F9A4C2 /* Character+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Character+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D0463D122926EAAA00F9A4C2 /* Weapon+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Weapon+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D0463D132926EAAA00F9A4C2 /* Weapon+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Weapon+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D04A1BF92A2FC71F006D8E35 /* Skill+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Skill+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D04A1BFA2A2FC71F006D8E35 /* Skill+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Skill+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D04A1BFD2A2FC827006D8E35 /* SkillViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillViewModel.swift; sourceTree = "<group>"; };
+		D04A1BFF2A2FC8B6006D8E35 /* SkillData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillData.swift; sourceTree = "<group>"; };
+		D04A1C012A2FCB9C006D8E35 /* SkillsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillsView.swift; sourceTree = "<group>"; };
+		D04A1C042A2FCFBE006D8E35 /* SkillInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillInfoView.swift; sourceTree = "<group>"; };
+		D04A1C062A2FD27C006D8E35 /* AddSkillsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSkillsView.swift; sourceTree = "<group>"; };
+		D059E3202A3F89B5000E815B /* DiceRollerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiceRollerView.swift; sourceTree = "<group>"; };
+		D05A9EDA28D6325900C3D63C /* PropCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropCalculator.swift; sourceTree = "<group>"; };
+		D05B00DC29086011000AECEC /* AddPropertiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPropertiesView.swift; sourceTree = "<group>"; };
+		D07127F02A16B4B200617754 /* AddNotesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNotesView.swift; sourceTree = "<group>"; };
+		D07146292909A6AB0058AC2B /* - EditNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "- EditNameView.swift"; sourceTree = "<group>"; };
+		D071462B2909BCF30058AC2B /* EditAlignmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAlignmentView.swift; sourceTree = "<group>"; };
+		D071462D2909BE410058AC2B /* - EditXpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "- EditXpView.swift"; sourceTree = "<group>"; };
+		D071462F2909C3160058AC2B /* EditCharDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCharDescriptionView.swift; sourceTree = "<group>"; };
+		D07146312909CFBC0058AC2B /* AddHealthPointsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHealthPointsView.swift; sourceTree = "<group>"; };
+		D07607882A26970100462B4B /* EditRaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditRaceView.swift; sourceTree = "<group>"; };
+		D076078A2A269A4100462B4B /* EditCasteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditCasteView.swift; sourceTree = "<group>"; };
+		D07BE14C297B224A009B7D6E /* ModifierData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModifierData.swift; sourceTree = "<group>"; };
+		D07BE14E297B36CB009B7D6E /* AddModifiersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddModifiersView.swift; path = "MAGUS Karakterlap/FightAddViews/AddModifiersView.swift"; sourceTree = SOURCE_ROOT; };
+		D07BE150297B4D8A009B7D6E /* Modifier+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Modifier+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D07BE151297B4D8A009B7D6E /* Modifier+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Modifier+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D07BE154297B5201009B7D6E /* ModifierInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModifierInfoView.swift; sourceTree = "<group>"; };
+		D084300A290B187500B2E94B /* - EditHealthPointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "- EditHealthPointView.swift"; sourceTree = "<group>"; };
+		D084300C290B2FC100B2E94B /* - EditPainPointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "- EditPainPointView.swift"; sourceTree = "<group>"; };
+		D084300E290B371300B2E94B /* HealthAndPainPointCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthAndPainPointCalculator.swift; sourceTree = "<group>"; };
+		D094615028D49368008E61D8 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
+		D094615228D4E8EB008E61D8 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		D094615428D51192008E61D8 /* TextSyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSyles.swift; sourceTree = "<group>"; };
+		D094615628D5AA30008E61D8 /* XpCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XpCalculator.swift; sourceTree = "<group>"; };
+		D096EAC92A40F9580017E442 /* ChoseWeaponsSecondView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoseWeaponsSecondView.swift; sourceTree = "<group>"; };
+		D096EACB2A4109F30017E442 /* WeaponShieldInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeaponShieldInfoView.swift; sourceTree = "<group>"; };
+		D09848032A3262E700BC497C /* Armor+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Armor+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D09848042A3262E700BC497C /* Armor+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Armor+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D09848072A3263C100BC497C /* ArmorData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArmorData.swift; sourceTree = "<group>"; };
+		D099912E28CD18B300028957 /* MAGUS Karakterlap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MAGUS Karakterlap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D099913128CD18B300028957 /* MAGUS_KarakterlapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAGUS_KarakterlapApp.swift; sourceTree = "<group>"; };
+		D099913328CD18B300028957 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		D099913528CD18B600028957 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D099913828CD18B600028957 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D099913E28CD18B600028957 /* MAGUS KarakterlapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MAGUS KarakterlapTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D099914228CD18B600028957 /* MAGUS_KarakterlapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAGUS_KarakterlapTests.swift; sourceTree = "<group>"; };
+		D099914828CD18B600028957 /* MAGUS KarakterlapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MAGUS KarakterlapUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D099914C28CD18B600028957 /* MAGUS_KarakterlapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAGUS_KarakterlapUITests.swift; sourceTree = "<group>"; };
+		D099914E28CD18B600028957 /* MAGUS_KarakterlapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAGUS_KarakterlapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D099915E28CD1CCF00028957 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		D099916028CD231500028957 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		D099916328CD24BB00028957 /* CharacterData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CharacterData.xcdatamodel; sourceTree = "<group>"; };
+		D099916528CD280000028957 /* MotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotherView.swift; sourceTree = "<group>"; };
+		D099916928CE833E00028957 /* FightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FightView.swift; sourceTree = "<group>"; };
+		D09DACE5291C439C00194015 /* AddPrimaryCasteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPrimaryCasteView.swift; sourceTree = "<group>"; };
+		D09DACE7291C4E7000194015 /* AddSecondaryCasteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSecondaryCasteView.swift; sourceTree = "<group>"; };
+		D09DACE9291C58F000194015 /* AddRaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddRaceView.swift; sourceTree = "<group>"; };
+		D09DACEB291C5AEB00194015 /* AddAlignmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAlignmentView.swift; sourceTree = "<group>"; };
+		D09DACED291C5D6E00194015 /* AddLevelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddLevelView.swift; sourceTree = "<group>"; };
+		D0A13F712A33AA7D00562079 /* ChoseArmorsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoseArmorsView.swift; sourceTree = "<group>"; };
+		D0B6F7892975BF5F00125C94 /* EquipmentData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EquipmentData.swift; sourceTree = "<group>"; };
+		D0B6F78F2975C1B300125C94 /* Equipment+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Equipment+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D0B6F7902975C1B300125C94 /* Equipment+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Equipment+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D0BF81382911694100524F5B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0BF813A29116C3500524F5B /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		D0C1E0F72933C9430012B08A /* InfoCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCalculator.swift; sourceTree = "<group>"; };
+		D0D531252917C74C0000A142 /* AddWeaponsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWeaponsView.swift; sourceTree = "<group>"; };
+		D0DE90762A326B3D00A5FED5 /* ArmorInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArmorInfoView.swift; sourceTree = "<group>"; };
+		D0DE90782A326D1F00A5FED5 /* AddArmorsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddArmorsView.swift; sourceTree = "<group>"; };
+		D0EAE59129259305009E7FF9 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		D0EDBEA028DE465800F636BC /* CharacterTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTabView.swift; sourceTree = "<group>"; };
+		D0EDBEA528DF6C2900F636BC /* AddTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTabView.swift; sourceTree = "<group>"; };
+		D0EDBEA728DF6CC000F636BC /* AddInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInfoView.swift; sourceTree = "<group>"; };
+		D0EDBEA928DF6CC900F636BC /* View2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
+		D0EDBEAB28DF6CD000F636BC /* View3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View3.swift; sourceTree = "<group>"; };
+		D0F239C929171DFB000C83CC /* EquipmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentsView.swift; sourceTree = "<group>"; };
+		D0F4B95F29316607008CE063 /* ChoseWeaponsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChoseWeaponsView.swift; path = "MAGUS Karakterlap/FightAddViews/ChoseWeaponsView.swift"; sourceTree = SOURCE_ROOT; };
+		D0F70DF52A2536C800F603FB /* EditHmView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditHmView.swift; sourceTree = "<group>"; };
+		D0FC99A9297DD1BC0015C6D6 /* DisadvantageInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisadvantageInfoView.swift; sourceTree = "<group>"; };
+		D0FC99AF297DE51A0015C6D6 /* Disadvantage+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Disadvantage+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D0FC99B0297DE51A0015C6D6 /* Disadvantage+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Disadvantage+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D0FC99B3297DE5BB0015C6D6 /* DisadvantageData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisadvantageData.swift; sourceTree = "<group>"; };
+		D0FE4A872974A96500703933 /* AddEquipmentsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEquipmentsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D099912B28CD18B300028957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D099913B28CD18B600028957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D099914528CD18B600028957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D02BC20629180F460094C680 /* EquipmentAddViews */ = {
+			isa = PBXGroup;
+			children = (
+				D0D531252917C74C0000A142 /* AddWeaponsView.swift */,
+				D0DE90782A326D1F00A5FED5 /* AddArmorsView.swift */,
+				D0FE4A872974A96500703933 /* AddEquipmentsView.swift */,
+				D0226277292864DF0095024C /* WeaponInfoView.swift */,
+				D096EACB2A4109F30017E442 /* WeaponShieldInfoView.swift */,
+				D0DE90762A326B3D00A5FED5 /* ArmorInfoView.swift */,
+				D01C79B7297746930049B948 /* EditEquipmentItemView.swift */,
+				D07127F02A16B4B200617754 /* AddNotesView.swift */,
+			);
+			path = EquipmentAddViews;
+			sourceTree = "<group>";
+		};
+		D032AFB528E0D1EC00C01582 /* Character pages Views */ = {
+			isa = PBXGroup;
+			children = (
+				D0EDBEA028DE465800F636BC /* CharacterTabView.swift */,
+				D0AB4CB12A1FE03B00F07D26 /* CharacterView Views */,
+				D094615028D49368008E61D8 /* CharacterView.swift */,
+				D0F239C929171DFB000C83CC /* EquipmentsView.swift */,
+				D04A1C012A2FCB9C006D8E35 /* SkillsView.swift */,
+				D099916928CE833E00028957 /* FightView.swift */,
+			);
+			path = "Character pages Views";
+			sourceTree = "<group>";
+		};
+		D032AFB628E0D9F900C01582 /* Unused */ = {
+			isa = PBXGroup;
+			children = (
+				D07146292909A6AB0058AC2B /* - EditNameView.swift */,
+				D084300A290B187500B2E94B /* - EditHealthPointView.swift */,
+				D084300C290B2FC100B2E94B /* - EditPainPointView.swift */,
+				D071462D2909BE410058AC2B /* - EditXpView.swift */,
+				D012EC8428D3CDDE003214D4 /* IndexView.swift */,
+				D022627529285F6B0095024C /* UsefulCodes.swift */,
+				D099916028CD231500028957 /* AddView.swift */,
+				D099916528CD280000028957 /* MotherView.swift */,
+				D094615228D4E8EB008E61D8 /* TabBar.swift */,
+				D012EC8028D3BD6B003214D4 /* PageSelector.swift */,
+			);
+			path = Unused;
+			sourceTree = "<group>";
+		};
+		D032AFB928E21DB500C01582 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D099913328CD18B300028957 /* ListView.swift */,
+				D0BF81382911694100524F5B /* LaunchScreen.storyboard */,
+				D0BF813A29116C3500524F5B /* LaunchView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D037807128EDC5FB001C2439 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D037807228EDC928001C2439 /* CharacterData.swift */,
+				D02BC20C291851120094C680 /* WeaponData.swift */,
+				D09848072A3263C100BC497C /* ArmorData.swift */,
+				D04A1BFF2A2FC8B6006D8E35 /* SkillData.swift */,
+				D0B6F7892975BF5F00125C94 /* EquipmentData.swift */,
+				D07BE14C297B224A009B7D6E /* ModifierData.swift */,
+				D0FC99B3297DE5BB0015C6D6 /* DisadvantageData.swift */,
+				D00F32162981C7C10075AF23 /* TargetData.swift */,
+				D099915E28CD1CCF00028957 /* DataController.swift */,
+				D037EA89298571FF0043F3DA /* ImagePicker.swift */,
+				D094615428D51192008E61D8 /* TextSyles.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D037807428EDE1DB001C2439 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D037807528EDFD3E001C2439 /* ListViewModel.swift */,
+				D02BC20E2918513D0094C680 /* EquipmentViewModel.swift */,
+				D04A1BFD2A2FC827006D8E35 /* SkillViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D04A1C032A2FCD86006D8E35 /* SkillAddViews */ = {
+			isa = PBXGroup;
+			children = (
+				D04A1C062A2FD27C006D8E35 /* AddSkillsView.swift */,
+				D04A1C042A2FCFBE006D8E35 /* SkillInfoView.swift */,
+			);
+			path = SkillAddViews;
+			sourceTree = "<group>";
+		};
+		D099912528CD18B300028957 = {
+			isa = PBXGroup;
+			children = (
+				D0EAE59129259305009E7FF9 /* TestView.swift */,
+				D0EAE58829257983009E7FF9 /* CoreData */,
+				D099913028CD18B300028957 /* MAGUS Karakterlap */,
+				D099914128CD18B600028957 /* MAGUS KarakterlapTests */,
+				D099914B28CD18B600028957 /* MAGUS KarakterlapUITests */,
+				D099912F28CD18B300028957 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D099912F28CD18B300028957 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D099912E28CD18B300028957 /* MAGUS Karakterlap.app */,
+				D099913E28CD18B600028957 /* MAGUS KarakterlapTests.xctest */,
+				D099914828CD18B600028957 /* MAGUS KarakterlapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D099913028CD18B300028957 /* MAGUS Karakterlap */ = {
+			isa = PBXGroup;
+			children = (
+				D099913128CD18B300028957 /* MAGUS_KarakterlapApp.swift */,
+				D037807128EDC5FB001C2439 /* Models */,
+				D037807428EDE1DB001C2439 /* ViewModels */,
+				D032AFB928E21DB500C01582 /* Views */,
+				D032AFB528E0D1EC00C01582 /* Character pages Views */,
+				D04A1C032A2FCD86006D8E35 /* SkillAddViews */,
+				D0F4B95C293157DC008CE063 /* FightAddViews */,
+				D02BC20629180F460094C680 /* EquipmentAddViews */,
+				D0EDBEA228DE550E00F636BC /* Character Add Views */,
+				D0D5312B2917D10F0000A142 /* Calculators */,
+				D032AFB628E0D9F900C01582 /* Unused */,
+				D099916228CD24BB00028957 /* CharacterData.xcdatamodeld */,
+				D099913528CD18B600028957 /* Assets.xcassets */,
+				D099913728CD18B600028957 /* Preview Content */,
+			);
+			path = "MAGUS Karakterlap";
+			sourceTree = "<group>";
+		};
+		D099913728CD18B600028957 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D099913828CD18B600028957 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D099914128CD18B600028957 /* MAGUS KarakterlapTests */ = {
+			isa = PBXGroup;
+			children = (
+				D099914228CD18B600028957 /* MAGUS_KarakterlapTests.swift */,
+			);
+			path = "MAGUS KarakterlapTests";
+			sourceTree = "<group>";
+		};
+		D099914B28CD18B600028957 /* MAGUS KarakterlapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D099914C28CD18B600028957 /* MAGUS_KarakterlapUITests.swift */,
+				D099914E28CD18B600028957 /* MAGUS_KarakterlapUITestsLaunchTests.swift */,
+			);
+			path = "MAGUS KarakterlapUITests";
+			sourceTree = "<group>";
+		};
+		D09DACE4291C434200194015 /* AddInfoView Views */ = {
+			isa = PBXGroup;
+			children = (
+				D09DACE5291C439C00194015 /* AddPrimaryCasteView.swift */,
+				D09DACE7291C4E7000194015 /* AddSecondaryCasteView.swift */,
+				D09DACE9291C58F000194015 /* AddRaceView.swift */,
+				D09DACEB291C5AEB00194015 /* AddAlignmentView.swift */,
+				D09DACED291C5D6E00194015 /* AddLevelView.swift */,
+				D0418112291EEA070018178A /* AddDescriptionView.swift */,
+			);
+			path = "AddInfoView Views";
+			sourceTree = "<group>";
+		};
+		D0AB4CB12A1FE03B00F07D26 /* CharacterView Views */ = {
+			isa = PBXGroup;
+			children = (
+				D07607882A26970100462B4B /* EditRaceView.swift */,
+				D076078A2A269A4100462B4B /* EditCasteView.swift */,
+				D071462B2909BCF30058AC2B /* EditAlignmentView.swift */,
+				D0F70DF52A2536C800F603FB /* EditHmView.swift */,
+				D071462F2909C3160058AC2B /* EditCharDescriptionView.swift */,
+				D059E3202A3F89B5000E815B /* DiceRollerView.swift */,
+			);
+			path = "CharacterView Views";
+			sourceTree = "<group>";
+		};
+		D0D5312B2917D10F0000A142 /* Calculators */ = {
+			isa = PBXGroup;
+			children = (
+				D05A9EDA28D6325900C3D63C /* PropCalculator.swift */,
+				D0C1E0F72933C9430012B08A /* InfoCalculator.swift */,
+				D094615628D5AA30008E61D8 /* XpCalculator.swift */,
+				D084300E290B371300B2E94B /* HealthAndPainPointCalculator.swift */,
+				D02BC2042917FC5E0094C680 /* WeaponsCalculator.swift */,
+			);
+			path = Calculators;
+			sourceTree = "<group>";
+		};
+		D0EAE58829257983009E7FF9 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				D0463D102926EAAA00F9A4C2 /* Character+CoreDataClass.swift */,
+				D0463D112926EAAA00F9A4C2 /* Character+CoreDataProperties.swift */,
+				D0463D122926EAAA00F9A4C2 /* Weapon+CoreDataClass.swift */,
+				D0463D132926EAAA00F9A4C2 /* Weapon+CoreDataProperties.swift */,
+				D0B6F78F2975C1B300125C94 /* Equipment+CoreDataClass.swift */,
+				D0B6F7902975C1B300125C94 /* Equipment+CoreDataProperties.swift */,
+				D07BE150297B4D8A009B7D6E /* Modifier+CoreDataClass.swift */,
+				D07BE151297B4D8A009B7D6E /* Modifier+CoreDataProperties.swift */,
+				D0FC99AF297DE51A0015C6D6 /* Disadvantage+CoreDataClass.swift */,
+				D0FC99B0297DE51A0015C6D6 /* Disadvantage+CoreDataProperties.swift */,
+				D00F32122981C3CB0075AF23 /* Target+CoreDataClass.swift */,
+				D00F32132981C3CB0075AF23 /* Target+CoreDataProperties.swift */,
+				D04A1BF92A2FC71F006D8E35 /* Skill+CoreDataClass.swift */,
+				D04A1BFA2A2FC71F006D8E35 /* Skill+CoreDataProperties.swift */,
+				D09848032A3262E700BC497C /* Armor+CoreDataClass.swift */,
+				D09848042A3262E700BC497C /* Armor+CoreDataProperties.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		D0EDBEA228DE550E00F636BC /* Character Add Views */ = {
+			isa = PBXGroup;
+			children = (
+				D0EDBEA528DF6C2900F636BC /* AddTabView.swift */,
+				D0EDBEA728DF6CC000F636BC /* AddInfoView.swift */,
+				D09DACE4291C434200194015 /* AddInfoView Views */,
+				D05B00DC29086011000AECEC /* AddPropertiesView.swift */,
+				D07146312909CFBC0058AC2B /* AddHealthPointsView.swift */,
+				D03139D8290D4882006F6F67 /* AddFightPointsView.swift */,
+				D0EDBEA928DF6CC900F636BC /* View2.swift */,
+				D0EDBEAB28DF6CD000F636BC /* View3.swift */,
+			);
+			path = "Character Add Views";
+			sourceTree = "<group>";
+		};
+		D0F4B95C293157DC008CE063 /* FightAddViews */ = {
+			isa = PBXGroup;
+			children = (
+				D0F4B95F29316607008CE063 /* ChoseWeaponsView.swift */,
+				D096EAC92A40F9580017E442 /* ChoseWeaponsSecondView.swift */,
+				D0A13F712A33AA7D00562079 /* ChoseArmorsView.swift */,
+				D07BE14E297B36CB009B7D6E /* AddModifiersView.swift */,
+				D07BE154297B5201009B7D6E /* ModifierInfoView.swift */,
+				D00F32182981CD710075AF23 /* TargetInfoView.swift */,
+				D0FC99A9297DD1BC0015C6D6 /* DisadvantageInfoView.swift */,
+			);
+			path = FightAddViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D099912D28CD18B300028957 /* MAGUS Karakterlap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D099915228CD18B600028957 /* Build configuration list for PBXNativeTarget "MAGUS Karakterlap" */;
+			buildPhases = (
+				D099912A28CD18B300028957 /* Sources */,
+				D099912B28CD18B300028957 /* Frameworks */,
+				D099912C28CD18B300028957 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MAGUS Karakterlap";
+			productName = "MAGUS Karakterlap";
+			productReference = D099912E28CD18B300028957 /* MAGUS Karakterlap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D099913D28CD18B600028957 /* MAGUS KarakterlapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D099915528CD18B600028957 /* Build configuration list for PBXNativeTarget "MAGUS KarakterlapTests" */;
+			buildPhases = (
+				D099913A28CD18B600028957 /* Sources */,
+				D099913B28CD18B600028957 /* Frameworks */,
+				D099913C28CD18B600028957 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D099914028CD18B600028957 /* PBXTargetDependency */,
+			);
+			name = "MAGUS KarakterlapTests";
+			productName = "MAGUS KarakterlapTests";
+			productReference = D099913E28CD18B600028957 /* MAGUS KarakterlapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D099914728CD18B600028957 /* MAGUS KarakterlapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D099915828CD18B600028957 /* Build configuration list for PBXNativeTarget "MAGUS KarakterlapUITests" */;
+			buildPhases = (
+				D099914428CD18B600028957 /* Sources */,
+				D099914528CD18B600028957 /* Frameworks */,
+				D099914628CD18B600028957 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D099914A28CD18B600028957 /* PBXTargetDependency */,
+			);
+			name = "MAGUS KarakterlapUITests";
+			productName = "MAGUS KarakterlapUITests";
+			productReference = D099914828CD18B600028957 /* MAGUS KarakterlapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D099912628CD18B300028957 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D099912D28CD18B300028957 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					D099913D28CD18B600028957 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D099912D28CD18B300028957;
+					};
+					D099914728CD18B600028957 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D099912D28CD18B300028957;
+					};
+				};
+			};
+			buildConfigurationList = D099912928CD18B300028957 /* Build configuration list for PBXProject "MAGUS Karakterlap" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D099912528CD18B300028957;
+			productRefGroup = D099912F28CD18B300028957 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D099912D28CD18B300028957 /* MAGUS Karakterlap */,
+				D099913D28CD18B600028957 /* MAGUS KarakterlapTests */,
+				D099914728CD18B600028957 /* MAGUS KarakterlapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D099912C28CD18B300028957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BF81392911694100524F5B /* LaunchScreen.storyboard in Resources */,
+				D099913928CD18B600028957 /* Preview Assets.xcassets in Resources */,
+				D099913628CD18B600028957 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D099913C28CD18B600028957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D099914628CD18B600028957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D099912A28CD18B300028957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04A1C052A2FCFBE006D8E35 /* SkillInfoView.swift in Sources */,
+				D04A1C002A2FC8B6006D8E35 /* SkillData.swift in Sources */,
+				D00F32152981C3CB0075AF23 /* Target+CoreDataProperties.swift in Sources */,
+				D0DE90792A326D1F00A5FED5 /* AddArmorsView.swift in Sources */,
+				D0226278292864DF0095024C /* WeaponInfoView.swift in Sources */,
+				D094615728D5AA30008E61D8 /* XpCalculator.swift in Sources */,
+				D09848052A3262E700BC497C /* Armor+CoreDataClass.swift in Sources */,
+				D0B6F78A2975BF5F00125C94 /* EquipmentData.swift in Sources */,
+				D0BF813B29116C3500524F5B /* LaunchView.swift in Sources */,
+				D05B00DD29086011000AECEC /* AddPropertiesView.swift in Sources */,
+				D04A1BFC2A2FC71F006D8E35 /* Skill+CoreDataProperties.swift in Sources */,
+				D0EDBEAA28DF6CC900F636BC /* View2.swift in Sources */,
+				D012EC8528D3CDDE003214D4 /* IndexView.swift in Sources */,
+				D099916A28CE833E00028957 /* FightView.swift in Sources */,
+				D04A1C072A2FD27C006D8E35 /* AddSkillsView.swift in Sources */,
+				D084300D290B2FC100B2E94B /* - EditPainPointView.swift in Sources */,
+				D0418113291EEA070018178A /* AddDescriptionView.swift in Sources */,
+				D0463D162926EAAA00F9A4C2 /* Character+CoreDataClass.swift in Sources */,
+				D09DACEE291C5D6E00194015 /* AddLevelView.swift in Sources */,
+				D07BE153297B4D8A009B7D6E /* Modifier+CoreDataProperties.swift in Sources */,
+				D022627629285F6B0095024C /* UsefulCodes.swift in Sources */,
+				D0EDBEA128DE465800F636BC /* CharacterTabView.swift in Sources */,
+				D09DACEA291C58F000194015 /* AddRaceView.swift in Sources */,
+				D0F4B96029316607008CE063 /* ChoseWeaponsView.swift in Sources */,
+				D0F70DF62A2536C800F603FB /* EditHmView.swift in Sources */,
+				D094615328D4E8EB008E61D8 /* TabBar.swift in Sources */,
+				D0463D182926EAAA00F9A4C2 /* Weapon+CoreDataClass.swift in Sources */,
+				D07BE14D297B224A009B7D6E /* ModifierData.swift in Sources */,
+				D0FC99B1297DE51A0015C6D6 /* Disadvantage+CoreDataClass.swift in Sources */,
+				D0C1E0F82933C9430012B08A /* InfoCalculator.swift in Sources */,
+				D07BE14F297B36CB009B7D6E /* AddModifiersView.swift in Sources */,
+				D01C79B8297746930049B948 /* EditEquipmentItemView.swift in Sources */,
+				D0463D192926EAAA00F9A4C2 /* Weapon+CoreDataProperties.swift in Sources */,
+				D04A1BFE2A2FC827006D8E35 /* SkillViewModel.swift in Sources */,
+				D05A9EDB28D6325900C3D63C /* PropCalculator.swift in Sources */,
+				D096EACA2A40F9580017E442 /* ChoseWeaponsSecondView.swift in Sources */,
+				D02BC20D291851120094C680 /* WeaponData.swift in Sources */,
+				D02BC2052917FC5E0094C680 /* WeaponsCalculator.swift in Sources */,
+				D094615528D51192008E61D8 /* TextSyles.swift in Sources */,
+				D037EA8A298571FF0043F3DA /* ImagePicker.swift in Sources */,
+				D00F32142981C3CB0075AF23 /* Target+CoreDataClass.swift in Sources */,
+				D071462A2909A6AB0058AC2B /* - EditNameView.swift in Sources */,
+				D0FE4A882974A96500703933 /* AddEquipmentsView.swift in Sources */,
+				D07127F12A16B4B200617754 /* AddNotesView.swift in Sources */,
+				D099913428CD18B300028957 /* ListView.swift in Sources */,
+				D0FC99AA297DD1BC0015C6D6 /* DisadvantageInfoView.swift in Sources */,
+				D096EACC2A4109F30017E442 /* WeaponShieldInfoView.swift in Sources */,
+				D00F32172981C7C10075AF23 /* TargetData.swift in Sources */,
+				D07BE152297B4D8A009B7D6E /* Modifier+CoreDataClass.swift in Sources */,
+				D037807628EDFD3E001C2439 /* ListViewModel.swift in Sources */,
+				D0EDBEAC28DF6CD000F636BC /* View3.swift in Sources */,
+				D07146322909CFBC0058AC2B /* AddHealthPointsView.swift in Sources */,
+				D09DACE6291C439C00194015 /* AddPrimaryCasteView.swift in Sources */,
+				D094615128D49368008E61D8 /* CharacterView.swift in Sources */,
+				D0EDBEA628DF6C2900F636BC /* AddTabView.swift in Sources */,
+				D07146302909C3160058AC2B /* EditCharDescriptionView.swift in Sources */,
+				D09848062A3262E700BC497C /* Armor+CoreDataProperties.swift in Sources */,
+				D0EDBEA828DF6CC000F636BC /* AddInfoView.swift in Sources */,
+				D07BE155297B5201009B7D6E /* ModifierInfoView.swift in Sources */,
+				D037807328EDC928001C2439 /* CharacterData.swift in Sources */,
+				D0F239CA29171DFB000C83CC /* EquipmentsView.swift in Sources */,
+				D09DACE8291C4E7000194015 /* AddSecondaryCasteView.swift in Sources */,
+				D099915F28CD1CCF00028957 /* DataController.swift in Sources */,
+				D04A1C022A2FCB9C006D8E35 /* SkillsView.swift in Sources */,
+				D071462C2909BCF30058AC2B /* EditAlignmentView.swift in Sources */,
+				D03139D9290D4882006F6F67 /* AddFightPointsView.swift in Sources */,
+				D012EC8128D3BD6B003214D4 /* PageSelector.swift in Sources */,
+				D0EAE59229259305009E7FF9 /* TestView.swift in Sources */,
+				D09DACEC291C5AEB00194015 /* AddAlignmentView.swift in Sources */,
+				D099916128CD231500028957 /* AddView.swift in Sources */,
+				D071462E2909BE410058AC2B /* - EditXpView.swift in Sources */,
+				D0D531262917C74C0000A142 /* AddWeaponsView.swift in Sources */,
+				D0463D172926EAAA00F9A4C2 /* Character+CoreDataProperties.swift in Sources */,
+				D0FC99B4297DE5BB0015C6D6 /* DisadvantageData.swift in Sources */,
+				D0B6F7962975C1B300125C94 /* Equipment+CoreDataProperties.swift in Sources */,
+				D0B6F7952975C1B300125C94 /* Equipment+CoreDataClass.swift in Sources */,
+				D09848082A3263C100BC497C /* ArmorData.swift in Sources */,
+				D076078B2A269A4100462B4B /* EditCasteView.swift in Sources */,
+				D07607892A26970100462B4B /* EditRaceView.swift in Sources */,
+				D04A1BFB2A2FC71F006D8E35 /* Skill+CoreDataClass.swift in Sources */,
+				D059E3212A3F89B5000E815B /* DiceRollerView.swift in Sources */,
+				D099913228CD18B300028957 /* MAGUS_KarakterlapApp.swift in Sources */,
+				D00F32192981CD710075AF23 /* TargetInfoView.swift in Sources */,
+				D02BC20F2918513D0094C680 /* EquipmentViewModel.swift in Sources */,
+				D0A13F722A33AA7D00562079 /* ChoseArmorsView.swift in Sources */,
+				D084300B290B187500B2E94B /* - EditHealthPointView.swift in Sources */,
+				D099916428CD24BB00028957 /* CharacterData.xcdatamodeld in Sources */,
+				D0DE90772A326B3D00A5FED5 /* ArmorInfoView.swift in Sources */,
+				D084300F290B371300B2E94B /* HealthAndPainPointCalculator.swift in Sources */,
+				D099916628CD280000028957 /* MotherView.swift in Sources */,
+				D0FC99B2297DE51A0015C6D6 /* Disadvantage+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D099913A28CD18B600028957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D099914328CD18B600028957 /* MAGUS_KarakterlapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D099914428CD18B600028957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D099914D28CD18B600028957 /* MAGUS_KarakterlapUITests.swift in Sources */,
+				D099914F28CD18B600028957 /* MAGUS_KarakterlapUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D099914028CD18B600028957 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D099912D28CD18B300028957 /* MAGUS Karakterlap */;
+			targetProxy = D099913F28CD18B600028957 /* PBXContainerItemProxy */;
+		};
+		D099914A28CD18B600028957 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D099912D28CD18B300028957 /* MAGUS Karakterlap */;
+			targetProxy = D099914928CD18B600028957 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D099915028CD18B600028957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D099915128CD18B600028957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D099915328CD18B600028957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MAGUS Karakterlap/Preview Content\"";
+				DEVELOPMENT_TEAM = 5C4G4DFM8B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PS.MAGUS-Karakterlap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D099915428CD18B600028957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MAGUS Karakterlap/Preview Content\"";
+				DEVELOPMENT_TEAM = 5C4G4DFM8B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PS.MAGUS-Karakterlap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D099915628CD18B600028957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5C4G4DFM8B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PS.MAGUS-KarakterlapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAGUS Karakterlap.app/MAGUS Karakterlap";
+			};
+			name = Debug;
+		};
+		D099915728CD18B600028957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5C4G4DFM8B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PS.MAGUS-KarakterlapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAGUS Karakterlap.app/MAGUS Karakterlap";
+			};
+			name = Release;
+		};
+		D099915928CD18B600028957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5C4G4DFM8B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PS.MAGUS-KarakterlapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MAGUS Karakterlap";
+			};
+			name = Debug;
+		};
+		D099915A28CD18B600028957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5C4G4DFM8B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PS.MAGUS-KarakterlapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MAGUS Karakterlap";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D099912928CD18B300028957 /* Build configuration list for PBXProject "MAGUS Karakterlap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D099915028CD18B600028957 /* Debug */,
+				D099915128CD18B600028957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D099915228CD18B600028957 /* Build configuration list for PBXNativeTarget "MAGUS Karakterlap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D099915328CD18B600028957 /* Debug */,
+				D099915428CD18B600028957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D099915528CD18B600028957 /* Build configuration list for PBXNativeTarget "MAGUS KarakterlapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D099915628CD18B600028957 /* Debug */,
+				D099915728CD18B600028957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D099915828CD18B600028957 /* Build configuration list for PBXNativeTarget "MAGUS KarakterlapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D099915928CD18B600028957 /* Debug */,
+				D099915A28CD18B600028957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D099916228CD24BB00028957 /* CharacterData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D099916328CD24BB00028957 /* CharacterData.xcdatamodel */,
+			);
+			currentVersion = D099916328CD24BB00028957 /* CharacterData.xcdatamodel */;
+			path = CharacterData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D099912628CD18B300028957 /* Project object */;
+}
